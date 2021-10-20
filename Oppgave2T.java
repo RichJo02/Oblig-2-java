@@ -61,6 +61,7 @@ class Tallspill
         int gjetning = 0;
         int antall = 1;
 
+
         do{
             String inn = showInputDialog("tipp tallet");
             gjetning = Integer.parseInt(inn);
@@ -80,5 +81,12 @@ class Tallspill
 
 
     }
+    public static void main(String[] args) {
+        Tallspill mittspill = new Tallspill();
+        Tallspill.kjørSpill();
+
+    }
+
+
 }
 

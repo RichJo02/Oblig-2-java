@@ -8,29 +8,40 @@ import javax.swing.*;
 
 public class ObligT {
     public static void main(String[]args) {
-        String nedregrense = JOptionPane.showInputDialog("Skriv inn nedre grense");
-        String øvregrense = JOptionPane.showInputDialog("Skriv inn øvre grense");
-        int nedre = Integer.parseInt(nedregrense);
-        int ovre = Integer.parseInt(øvregrense);
+        String nedre = JOptionPane.showInputDialog("Skriv inn nedre grense");
+        String ovre = JOptionPane.showInputDialog("Skriv inn øvre grense");
+        //int nedregrense=0;
+        //int øvregrense=20;
+        int nedregrense = Integer.parseInt(nedre);
+        int øvregrense = Integer.parseInt(ovre);
         String utskrift = "";
         int sum = 0;
+        int hei = 0;
+        StringBuilder utString = new StringBuilder();
 
-        if (ovre<nedre) {
+        if (øvregrense<nedregrense) {
             JOptionPane.showMessageDialog(null, "nedre grense kan ikke være større enn øvre idiot!!");
             System.exit(0);
         }
 
-        for (int i = nedre; i <= ovre; i++) {
-
+        for (int i = nedregrense; i <= øvregrense; i++) {
             sum += i;
-            utskrift += i + "+";
+            utString.append(i);
+            if(i<øvregrense)
+                utString.append("+");
+            hei++;
+            if(hei%10 ==0){
+                utString.append("\n");
+            }
 
         }
 
-        utskrift = utskrift.substring(0, utskrift.length() - 1);
-        utskrift += "=" + sum;
 
 
-        JOptionPane.showMessageDialog(null, utskrift);
+        //utskrift = utskrift.substring(0, utskrift.length() - 1);
+        //utskrift += "\nsum = " + sum;
+
+        System.out.println(utString+"\nsum="+sum);
+        //JOptionPane.showMessageDialog(null, utskrift);
     }
 }

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e5dc055-2fb8-424c-ac55-5773c26b54e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TallspillTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObligT.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObligT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Oppgave2T.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2T.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TallspillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TallspillTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig-2-java/oblig2/Tallspill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig-2-java/oblig2/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.TallspillTest">
+  <component name="RunManager" selected="Application.ObligT">
+    <configuration name="ObligT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oblig2.ObligT" />
+      <module name="Oblig-2-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oblig2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tallspill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oblig2.Tallspill" />
+      <module name="Oblig-2-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oblig2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TallspillTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oblig2.TallspillTest" />
       <module name="Oblig-2-java" />
@@ -61,6 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObligT" />
+        <item itemvalue="Application.Tallspill" />
         <item itemvalue="Application.TallspillTest" />
         <item itemvalue="Application.Test" />
       </list>
@@ -74,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634570124532</updated>
-      <workItem from="1634570129425" duration="5274000" />
+      <workItem from="1634570129425" duration="7552000" />
     </task>
     <servers />
   </component>
