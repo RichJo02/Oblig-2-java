@@ -37,18 +37,14 @@ class Tallspill
     /* Viser melding om at det ble gjettet riktig
       og antall gjetninger som ble brukt.
       Parametrene gir opplysninger om dette. */
-
-
-        if (antall == gjetning) {
-            System.out.println(
-                    "Gratulerer!"
-                            + gjetning + " er rett tall."
-                            + "Du har brukt" + antall
-                            + "forsøk");
+        showMessageDialog(
+                    null,"Gratulerer! "
+                            + gjetning + " er rett tall. "
+                            + "Du har brukt " + antall
+                            + " forsøk");
 
         }
 
-    }
 
     public void kjørSpill() {
     /* Kjører en spillrunde ved å trekke et tall,
@@ -63,16 +59,21 @@ class Tallspill
 
 
         do{
-            String inn = showInputDialog("tipp tallet");
+            String inn = showInputDialog("tipp tallet mellom 0 og 200");
             gjetning = Integer.parseInt(inn);
 
             if(gjetning < nyttTall){
                 forLite(gjetning);
                 antall++;
+
             }
-            if(gjetning > nyttTall){
+            else if(gjetning > nyttTall){
                 forStort(gjetning);
                 antall++;
+
+            }
+            else{
+                avsluttRunde(antall, gjetning);
             }
 
         }
@@ -80,10 +81,11 @@ class Tallspill
 
 
 
+
     }
     public static void main(String[] args) {
         Tallspill mittspill = new Tallspill();
-        Tallspill.kjørSpill();
+        mittspill.kjørSpill();
 
     }
 

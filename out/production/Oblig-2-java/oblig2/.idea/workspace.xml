@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e5dc055-2fb8-424c-ac55-5773c26b54e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_0_beta_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Oppgave2T.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2T.java" afterDir="false" />
     </list>
@@ -29,9 +30,58 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Richard\Documents\GitHub\Oblig-2-java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Tallspill">
+    <configuration name="ObligT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oblig2.ObligT" />
+      <module name="Oblig-2-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oblig2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tallspill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oblig2.Tallspill" />
+      <module name="Oblig-2-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oblig2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TallspillTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oblig2.TallspillTest" />
+      <module name="Oblig-2-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oblig2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oblig2.Test" />
       <module name="Oblig-2-java" />
@@ -47,6 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tallspill" />
+        <item itemvalue="Application.ObligT" />
+        <item itemvalue="Application.TallspillTest" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -59,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634570124532</updated>
-      <workItem from="1634570129425" duration="4010000" />
+      <workItem from="1634570129425" duration="9167000" />
     </task>
     <servers />
   </component>
