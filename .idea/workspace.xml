@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e5dc055-2fb8-424c-ac55-5773c26b54e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_0_beta_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave2T.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2T.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig-2-java/oblig2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig-2-java/oblig2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig-2-java/oblig2/ObligT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig-2-java/oblig2/ObligT.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634570124532</updated>
-      <workItem from="1634570129425" duration="12529000" />
+      <workItem from="1634570129425" duration="15767000" />
     </task>
     <servers />
   </component>
